@@ -170,3 +170,6 @@ You can also have a look at the examples to see an example CMakeLists.txt for cm
 - RapidJSON: A fast JSON parser/generator for C++ with both SAX/DOM style API.
 - POSIX Threads (pthreads): For multithreading support.
 
+### Operating Systems
+
+Currently tested to run on Linux. But should be able to run on other operating systems with some minor modifications.
