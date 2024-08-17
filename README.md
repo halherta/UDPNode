@@ -12,6 +12,14 @@
 - **Data Serialization**: Messages are serialized using JSON, and each message is associated with a CRC checksum for validation.
 - **Error Handling**: Provides detailed error handling and reporting through an enumerated type `err_code`.
 
+## Downloading UDPNode
+
+The UDPNode class relies on the RapidJson library and requires the inclusion of a few of that libraries header files. To download UDPNode with all of its dependencies:
+
+``` bash
+git clone --recurse-submodules https://github.com/halherta/UDPNode.git 
+```
+
 ## Class Functions
 
 ### Constructor
